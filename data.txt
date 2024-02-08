@@ -1,0 +1,32 @@
+Test,Result,Biological Reference Interval,Method
+Hemoglobin,10.8 g/dL,12.0-15.0,Photometric
+Hematocrit,33.70%,34.0-46.0,Calculated
+RBC Count,4.84 x 10^6/µL,3.8-4.8,Impedance
+MCV,69.7 fL,83-101,Impedance
+MCH,22.3 pg,27-32,Calculated
+MCHC,32.1 g/dL,31.5-34.5,Calculated
+RDW,17.30%,11.6-14.0,Calculated
+Platelet Count,176.0 x 10^3/µL,150-400,Impedance Light microscopy        
+MPV,7.7 fL,7.5-11,Calculated
+PCT,0.14%,0.15-0.5,Calculated
+Total WBC,15.9 x 10^3/µL,4.0-10.0,Impedance
+Neutrophil,86%,42-74,VCS Technology/Light microscopy
+Left Shift,Mild,,
+Lymphocyte,6%,18-44,VCS Technology/Light microscopy
+Monocyte,8%,5.0-13.0,VCS Technology/Light microscopy
+nRBC,3 / 100WBCs,,
+Absolute Neutrophil Count,13.67 x 10^3/µL,2.0-8.0,Calculated
+Absolute Lymphocyte Count,0.95 x 10^3/µL,0.72-4.4,Calculated
+N-Terminal Pro B-Type Natriuretic Peptide,2265 pg/mL,40-125 pg/mL,Electrochemiluminescence Immunoassay (ECLIA)
+Troponin T hs Stat,0.057 ng/mL,UPTO 0.20 ng/mL,ECLIA
+Urea,27 mg/dL,10-40 mg/dL,Urease GLDH
+Creatinine,0.56 mg/dL,0.5-0.9 mg/dL,Jaffe Rate Blanked
+Sodium,138.0 mmol/L,136-145 mmol/L,ISE Indirect
+Potassium,3.4 mmol/L,3.5-5.1 mmol/L,ISE Indirect
+Total Bilirubin,0.29 mg/dL,0.9 mg/dL,Diazotization Method
+Direct Bilirubin,0.17 mg/dL,0.0-0.3 mg/dL,Gendrassik Grof
+Total Protein,6.40 g/dL,6.4-8.3 g/dL,Biuret
+Albumin,3.40 g/dL,3.5-5.2 g/dL,Bromocresol Green
+Aspartate Transaminase,344 IU/L,up to 32 IU/L,UV without PSP
+Alanine Transaminase,220 IU/L,up to 33 IU/L,UV without PSP
+Alkaline Phosphatase,78 U/L,35-105 U/L,PNP-AMP buffer
