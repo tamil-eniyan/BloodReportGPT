@@ -92,7 +92,7 @@ print(bloody_json)
 
 with open('report.csv', 'w') as file:
     csv_writer = csv.writer(file)
-    csv_writer.writerow(bloody_json)
+    csv_writer.write(bloody_json)
 
     
 
