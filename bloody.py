@@ -88,13 +88,29 @@ questions= "give the response in .csv ,ignore the name field, any notes and othe
 # going for snack brb
 
 bloody_json= get_gemini_response(pdf_path,questions)
-print(bloody_json)
+# print(bloody_json)
 
-with open('report.csv', 'w') as file:
-    csv_writer = csv.writer(file)
-    csv_writer.write(bloody_json)
+output_file_path = "output_response.txt"
 
-    
+# Writing the generated response to a file
+with open(output_file_path, 'w', encoding='utf-8') as output_file:
+    output_file.write(bloody_json)
+
+print(f"Response has been written to: {output_file_path}")
+
+# with open('report.csv', 'w') as file:
+#     csv_writer = csv.writer(file)
+#     csv_writer.write(bloody_json)
+
+csv_output_file_path = "output_response.csv"
+
+# Writing the generated response to a CSV file
+with open(csv_output_file_path, 'w', newline='', encoding='utf-8') as csv_file:
+    csv_writer = csv.writer(csv_file)
+    # csv_writer.writerow(['Generated Response'])
+    csv_writer.writerow([bloody_json])
+
+print(f"Response has been written to: {csv_output_file_path}")  
 
 
 
