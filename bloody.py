@@ -8,6 +8,7 @@ import fitz
 import google.generativeai as genai
 import tempfile
 import os
+import pandas as pd
 from pathlib import Path
 import PIL
 
@@ -81,36 +82,57 @@ def pdf2img(pdf_path):
 
 
 
+def dataframe_management():
+    bloody_df = pd.read_csv("bloody_csv.csv")
+    print (bloody_df)
+
+    bloody_df = bloody_df.reindex(columns=['Test', 'd', 'c', 'a'])
+
+    
+
+
+
+
+
+
+
+
+#***********************************************8Driver*********************************************
 
 
 pdf_path = "images/PDF1.pdf"
-questions= "give the response in .csv ,ignore the name field, any notes and other stuffs in the report, only consider the tests and start from hematology report with the format of "
+query= "give the response in .csv ,ignore the name field, any notes and other stuffs in the report, only consider the tests and start from hematology report with the format of "
 # going for snack brb
 
-bloody_json= get_gemini_response(pdf_path,questions)
-# print(bloody_json)
+bloody_csv= (get_gemini_response(pdf_path,query)).replace(" HEMATOLOGY REPORT,","")
 
-output_file_path = "output_response.txt"
+print(bloody_csv)
 
-# Writing the generated response to a file
-with open(output_file_path, 'w', encoding='utf-8') as output_file:
-    output_file.write(bloody_json)
 
-print(f"Response has been written to: {output_file_path}")
+file = open("bloody_csv.csv","w")
+file.writelines(bloody_csv)
+file.close()
 
-# with open('report.csv', 'w') as file:
-#     csv_writer = csv.writer(file)
-#     csv_writer.write(bloody_json)
+dataframe_management()
 
-csv_output_file_path = "output_response.csv"
 
-# Writing the generated response to a CSV file
-with open(csv_output_file_path, 'w', newline='', encoding='utf-8') as csv_file:
-    csv_writer = csv.writer(csv_file)
-    # csv_writer.writerow(['Generated Response'])
-    csv_writer.writerow([bloody_json])
 
-print(f"Response has been written to: {csv_output_file_path}")  
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
