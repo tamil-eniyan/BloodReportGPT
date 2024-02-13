@@ -12,7 +12,7 @@ import pandas as pd
 from pathlib import Path
 import PIL
 
-GEMINI_API = "AIzaSyCtQ914aymvoEhR07yzd9wB0EnkGBCK8JY"
+GEMINI_API = "AIzaSyA2XvdbTm6DkLpDwrVhpSS0qR-rVmc23Jc"
 
 
 generation_config = {
