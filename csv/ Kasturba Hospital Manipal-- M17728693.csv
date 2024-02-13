@@ -1,0 +1,22 @@
+Test,Result,Biological Reference Interval,Method
+WBC,4.30 x 10^9/L,4.0-11.0,Impedance
+RBC COUNT,4.94 x 10^12/L,3.8-4.8,Impedance
+HGB,12.9 g/dL,12.0-15.0,Calculated
+HCT,38.4 %,34.0-46.0,Calculated
+MCV,70.0 fL,81-101,Impedance
+MCH,26.1 pg,27.2-32,Calculated
+MCHC,34.8 g/dL,31.5-34.5,Calculated
+RDW,11.8 %,11.5-14.0,Impedance
+PLATELET COUNT,167.0 x 10^9/L,150-400,Impedance
+MPV,7.5 fL,6.5-11,Impedance
+PCT,0.136 %,0.05 - 0.5,Calculated
+PDW,17.5 %,10-18,Impedance
+TOTAL WBC,4.30 x 10^9/L,4.0-11.0,Impedance
+NEUTROPHIL,2.4 x 10^9/L,1.0 - 7.0,Automated differential/light microscopy
+LYMPHOCYTE,1.6 x 10^9/L,1.0 - 4.0,Automated differential/light microscopy
+EOSINOPHIL,0.2 x 10^9/L,0.0 - 0.6,Automated differential/light microscopy
+MONOCYTE,0.1 x 10^9/L,0.1 - 0.8,Automated differential/light microscopy
+BASOPHIL,0.0 x 10^9/L,0.0 - 0.4,Automated differential/light microscopy
+ABSOLUTE NEUTROPHIL COUNT,2.4 x 10^9/L,1.0 - 7.0,Calculated
+ABSOLUTE EOSINOPHIL COUNT,0.2 x 10^9/L,0.0 - 0.6,Calculated
+ABSOLUTE LYMPHOCYTE COUNT,1.29 x 10^9/L,0.7-2.4,Calculated

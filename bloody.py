@@ -12,7 +12,7 @@ import pandas as pd
 from pathlib import Path
 import PIL
 
-GEMINI_API = "AIzaSyCtQ914aymvoEhR07yzd9wB0EnkGBCK8JY"
+GEMINI_API = "AIzaSyASvGpXqgTW-lT116BYXDIfKoYd-QrFlwM"
 
 
 generation_config = {
@@ -29,6 +29,13 @@ safety_settings = [
     {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
 ]
 
+genai.configure(api_key=GEMINI_API)
+model = genai.GenerativeModel('gemini-pro-vision',safety_settings=safety_settings,generation_config=generation_config)
+
+
+
+
+
 def get_gemini_response(pdf_path,questions):
     try :
 
@@ -38,8 +45,6 @@ def get_gemini_response(pdf_path,questions):
         # blood_report_3 = Image.open("images/img2.jpeg")
         # blood_report_4 = Image.open("images/img1.jpeg")
         format = Image.open("images/format.jpg")
-        genai.configure(api_key=GEMINI_API)
-        model = genai.GenerativeModel('gemini-pro-vision',safety_settings=safety_settings,generation_config=generation_config)
         response = model.generate_content([f"here you have a blood report , {questions} {format}" ,blood_report])
         return response.text
 
@@ -88,12 +93,21 @@ def dataframe_management():
 
     bloody_df = bloody_df.reindex(columns=['Test', 'd', 'c', 'a'])
 
+def get_hospitalname():
+
+    report = Image.open("combinedimage_temp.jpeg")
     
+    response = model.generate_content([f"just Extract the hospitel name and northing else  ",report])
+    
+    return response.text
 
+    
+def get_sampleid():
+    report = Image.open("combinedimage_temp.jpeg")
 
+    response = model.generate_content(["just extract the sample id and northing else",report])
 
-
-
+    return response.text
 
 
 
@@ -108,12 +122,16 @@ bloody_csv= (get_gemini_response(pdf_path,query)).replace(" HEMATOLOGY REPORT,",
 
 print(bloody_csv)
 
+hos_name = get_hospitalname()
+sample_id = get_sampleid() 
 
-file = open("bloody_csv.csv","w")
+filename = (f"csv/{hos_name}--{sample_id}.csv")
+
+file = open(filename,"w")
 file.writelines(bloody_csv)
 file.close()
 
-dataframe_management()
+#dataframe_management()
 
 
 
