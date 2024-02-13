@@ -1,19 +1,22 @@
 Test,Result,Biological Reference Interval,Method
-WBC COUNT,(H) 70.0 fL,43.0 - 106.0 fL,Impedance
-RBC COUNT,(H) 31.3 x 10^6/µL,34.0 - 46.0 x 10^6/µL,Impedance
-MCH,(H) 21.9 pg,18.0 - 26.0 pg,Calculated
-MCHC,(H) 30.1 g/dL,27.0 - 32.0 g/dL,Calculated
-MCV,(H) 72.3 fL,81.0 - 96.0 fL,Impedance
-PLATELET COUNT,(H) 167.0 x 10^3/µL,150.0 - 400 x 10^3/µL,Impedance
-RDW,(H) 11.8 %,11.5 - 14.0 %,Calculated
-MPV,(H) 0.136 fL,0.05 - 0.18 fL,Impedance
-PCT,(H) 0.9 %,0.1 - 4.0 %,Calculated
-TOTAL WBC,(H) 8.2 x 10^3/µL,4.0 - 10.0 x 10^3/µL,Automated (Sysmex/light microscopy)
-NEUTROPHIL,(H) 65.9 %,42.7 - 74.0 %,Differential count
-LYMPHOCYTE,(H) 18.4 %,10.0 - 48.0 %,Differential count
-EOSINOPHIL,(H) 9.0 %,1.0 - 8.0 %,Differential count
-MONOCYTE,(H) 6.5 %,2.0 - 13.0 %,Differential count
-BASOPHIL,(H) 0.0 %,0.0 - 0.4 %,Differential count
-ABSOLUTE NEUTROPHIL COUNT,(H) 53.8 x 10^3/µL,16.8 - 70.0 x 10^3/µL,Calculated
-ABSOLUTE EOSINOPHIL COUNT,(H) 1.0 x 10^3/µL,0.0 - 4.0 x 10^3/µL,Calculated
-ABSOLUTE LYMPHOCYTE COUNT,(H) 12.9 x 10^3/µL,0.7 - 2.4 x 10^3/µL,Calculated
+WBC,4.30 x 10^9/L,4.0-11.0,Impedance
+RBC COUNT,4.94 x 10^12/L,4.30-6.00,Impedance
+HGB,12.9 g/dL,12.0-15.0,Photometric
+HCT,38.4 %,34.0-46.0,Calculated
+MCV,70.0 fL,81-101,Impedance
+MCH,26.1 pg,27.2-32,Calculated
+MCHC,34.8 g/dL,31.5-34.5,Calculated
+RDW,11.8 %,11.5-14.0,Impedance
+PLATELET COUNT,167.0 x 10^9/L,150-400,Impedance
+MPV,7.5 fL,6.5-11,Impedance
+PCT,0.136 %,0.05 - 0.5,Calculated
+PDW,17.3 %,10-18,Impedance
+TOTAL WBC,4.30 x 10^9/L,4.0-11.0,Impedance
+NEUTROPHIL,5.0 x 10^9/L,1.5-7.0,Automated
+LYMPHOCYTE,8.4 x 10^8/L,0.5-4.0,Automated
+EOSINOPHIL,0.2 x 10^9/L,0.0-0.6,Automated
+MONOCYTE,0.1 x 10^9/L,0.1-0.9,Automated
+BASOPHIL,0.0 x 10^9/L,0.0-0.4,Automated
+ABSOLUTE NEUTROPHIL COUNT,21.5,1.5-7.0,Calculated
+ABSOLUTE EOSINOPHIL COUNT,0.9,0.0-0.6,Calculated
+ABSOLUTE LYMPHOCYTE COUNT,1.29,0.72-4.4,Calculated

@@ -1,0 +1,21 @@
+" Test,Result,Biological Reference Interval,Method
+Hematology Report - CBC
+Red Cell Count,(4.34 x 10^6)/uL,4.30 - 5.40,Automated
+Hemoglobin,(14.8 g/dL),12.0 - 15.0,Impedance
+Hematocrit,43.0 %,36.8 - 46.0,Calculated
+MCV,(94 g/L),80 - 101,Impedance
+MCH,(29 pg),27.0 - 32.0,Calculated
+MCHC,(34.4 g/dL),31.5 - 34.5,Calculated
+RDW,11.8 %,11.5 - 14.0,Impedance
+Platelet Count,(167.0 x 10^9)/L,150.0 - 400,Impedance
+MPV,(10.3 fL),7.5 - 11.8,Impedance
+PCT,0.136 %,0.05 - 0.50,Calculated
+Total WBC Count,(4.5 x 10^3)/uL,4.0 - 11.0,Automated
+Neutrophil,(65.6 %),42-74,Automated/light microscopy
+Lymphocyte,(31.0 %),18 - 44,Automated/light microscopy
+Monocyte,(9.0 %),2.0 - 13.0,Automated/light microscopy
+Eosinophil,(0.8 %),1.0 - 6.0,Automated/light microscopy
+Basophil,(0.1 %),0.0 - 0.4,Automated/light microscopy
+Absolute Neutrophil Count,(2.94 x 10^3)/uL,1.8 - 7.8,Calculated
+Absolute Eosinophil Count,(0.04 x 10^3)/uL,0.04-0.4,Calculated
+Absolute Lymphocyte Count,(1.29 x 10^3)/uL,0.72-4.2,Calculated"
