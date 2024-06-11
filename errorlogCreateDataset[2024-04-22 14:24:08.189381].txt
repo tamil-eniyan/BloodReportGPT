@@ -1,0 +1,4 @@
+2024-04-22 14:24:08.189381|2024-04-22 14:24:08.189381 | 
+[-]get_sample_ID | substring not found  |dir_path =  ['text/Malaria/', 'text/Dengue/', 'text/Leptospirosis/', 'text/ScrubTyphus/'] | pdf_path = text/Malaria/9B.txt | pdf_name = 9B.txt|2024-04-22 14:24:08.189381 | 
+[-]get_sample_ID | substring not found  |dir_path =  ['text/Malaria/', 'text/Dengue/', 'text/Leptospirosis/', 'text/ScrubTyphus/'] | pdf_path = text/Malaria/11A.txt | pdf_name = 11A.txt|2024-04-22 14:24:08.189381 | 
+[-]get_sample_ID | substring not found  |dir_path =  ['text/Malaria/', 'text/Dengue/', 'text/Leptospirosis/', 'text/ScrubTyphus/'] | pdf_path = text/Malaria/11C.txt | pdf_name = 11C.txt

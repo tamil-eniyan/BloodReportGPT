@@ -1,0 +1,50 @@
+2024-04-16 15:44:39.8667662024-04-16 15:44:39.866766 | 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria9B.pdf'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria9B.pdf | pdf_name = 9B.pdf2024-04-16 15:44:39.866766 | 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria9B.pdf | pdf_name = 9B.pdf2024-04-16 15:44:39.866766 | 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/9B--SampleID:MB49322_hemo.csv'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria9B.pdf | pdf_name = 9B.pdf2024-04-16 15:44:39.866766 | 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria11A.pdf'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria11A.pdf | pdf_name = 11A.pdf2024-04-16 15:44:39.866766 | 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria11A.pdf | pdf_name = 11A.pdf2024-04-16 15:44:39.866766 | 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/11A--SampleID:MB49322_hemo.csv'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria11A.pdf | pdf_name = 11A.pdf2024-04-16 15:44:39.866766 | 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria11C.pdf'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria11C.pdf | pdf_name = 11C.pdf2024-04-16 15:44:39.866766 | 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria11C.pdf | pdf_name = 11C.pdf2024-04-16 15:44:39.866766 | 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/11C--SampleID:MB49322_hemo.csv'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria11C.pdf | pdf_name = 11C.pdf2024-04-16 15:44:39.866766 | 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria7B.pdf'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria7B.pdf | pdf_name = 7B.pdf2024-04-16 15:44:39.866766 | 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria7B.pdf | pdf_name = 7B.pdf2024-04-16 15:44:39.866766 | 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/7B--SampleID:MB49322_hemo.csv'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria7B.pdf | pdf_name = 7B.pdf2024-04-16 15:44:39.866766 | 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria3B.pdf'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria3B.pdf | pdf_name = 3B.pdf2024-04-16 15:44:39.866766 | 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria3B.pdf | pdf_name = 3B.pdf2024-04-16 15:44:39.866766 | 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/3B--SampleID:MB49322_hemo.csv'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria3B.pdf | pdf_name = 3B.pdf2024-04-16 15:44:39.866766 | 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria15B.pdf'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria15B.pdf | pdf_name = 15B.pdf2024-04-16 15:44:39.866766 | 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria15B.pdf | pdf_name = 15B.pdf2024-04-16 15:44:39.866766 | 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/15B--SampleID:MB49322_hemo.csv'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria15B.pdf | pdf_name = 15B.pdf2024-04-16 15:44:39.866766 | 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria6A.pdf'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria6A.pdf | pdf_name = 6A.pdf2024-04-16 15:44:39.866766 | 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria6A.pdf | pdf_name = 6A.pdf2024-04-16 15:44:39.866766 | 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/6A--SampleID:MB49322_hemo.csv'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria6A.pdf | pdf_name = 6A.pdf2024-04-16 15:44:39.866766 | 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria10A.pdf'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria10A.pdf | pdf_name = 10A.pdf2024-04-16 15:44:39.866766 | 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria10A.pdf | pdf_name = 10A.pdf2024-04-16 15:44:39.866766 | 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/1A--SampleID:MB49322_hemo.csv'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria10A.pdf | pdf_name = 10A.pdf2024-04-16 15:44:39.866766 | 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria4C.pdf'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria4C.pdf | pdf_name = 4C.pdf2024-04-16 15:44:39.866766 | 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria4C.pdf | pdf_name = 4C.pdf2024-04-16 15:44:39.866766 | 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/4C--SampleID:MB49322_hemo.csv'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria4C.pdf | pdf_name = 4C.pdf2024-04-16 15:44:39.866766 | 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria5A.pdf'  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria5A.pdf | pdf_name = 5A.pdf2024-04-16 15:44:39.866766 | 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None  |dir_path =  images/Datasets/Malaria/Malaria | pdf_path = images/Datasets/Malaria/Malaria5A.pdf | pdf_name = 5A.pdf

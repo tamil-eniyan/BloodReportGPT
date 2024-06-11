@@ -35,7 +35,7 @@ safety_settings = [
 ]
 
 genai.configure(api_key=GEMINI_API)
-model = genai.GenerativeModel('gemini-pro-vision',safety_settings=safety_settings,generation_config=generation_config)
+model = genai.GenerativeModel('gemini-pro',safety_settings=safety_settings,generation_config=generation_config)
 
 
 
@@ -44,9 +44,7 @@ model = genai.GenerativeModel('gemini-pro-vision',safety_settings=safety_setting
 def get_gemini_response(pdf_path,questions):
     try :
 
-        blood_report = pdf2img(pdf_path)
-   
-        format = Image.open("images/format.jpg")
+        
         response = model.generate_content([f"here you have a blood report , {questions} {format}" ,blood_report])
         return response.text
 
@@ -55,64 +53,11 @@ def get_gemini_response(pdf_path,questions):
         print(f"[-]Error at get_gemini_ressponse : {e} ")
         return ("errorcodered")
 
-
-def pdf2img(pdf_path):
-    try:
-        pdf_document = fitz.open(pdf_path)
-        image_list = []
-
-        for page_number in range(pdf_document.page_count):
-            page = pdf_document[page_number]
-            image_list.append(page.get_pixmap())
-
-        pdf_document.close()
-
-        images = [
-            Image.frombytes("RGB", (image.width, image.height), image.samples)
-            for image in image_list
-        ]
-
-        # Combine all images vertically
-        combined_image = Image.new(
-            "RGB", (images[0].width, sum(image.height for image in images))
-        )
-        offset = 0
-
-        for image in images:
-            combined_image.paste(image, (0, offset))
-            offset += image.height
-
-        # Save the combined image
-        combined_image.save("combinedimage_temp.jpeg", "JPEG")
-        return combined_image
-
-    except Exception as e:
-        logs_errors(f"\n[-]pdf2img | {e} ")
-
-        print(f"[-]Error during image conversion detection: {str(e)}")
-
-
-
-def dataframe_management():
-    bloody_df = pd.read_csv("bloody_csv.csv")
-    print (bloody_df)
-
-    bloody_df = bloody_df.reindex(columns=['Test', 'd', 'c', 'a'])
-
-#def get_hospitalname():
- 
-  #      report = Image.open("combinedimage_temp.jpeg")
-    
-   #     response = model.generate_content([f"just Extract the hospitel name and northing else  ",report])
-    
-    #    return response.text
-
     
 def get_sampleid():
     
     try: 
-        report = Image.open("combinedimage_temp.jpeg")
-
+       
         response = model.generate_content(["just extract sample id and northing else",report])
 
         return response.text
@@ -138,7 +83,7 @@ with open(error_log_path, 'a') as f:
         f.close()
 
 
-dir_path = "images/Datasets/Leptospirosis/Leptospirosis/"
+dir_path = "images/text/Dengue/"
 pdf_path = ""
 pdf_name = ""
 query= "give the response in .csv ,ignore the name field, any notes and other stuffs in the report, only consider the tests from hematology report with the format of "

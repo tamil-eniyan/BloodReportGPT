@@ -1,0 +1,145 @@
+[!]Starting the Extraction Process
+[$]Variable names | dir_path = images/Datasets/Malaria/Malaria | pdfpath = images/Datasets/Malaria/Malaria9B.pdf | pdfname = 9B.pdf
+[!]Calling the Gemeni function
+[*]Loging error : 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria9B.pdf' 
+[-]Error during image conversion detection: no such file: 'images/Datasets/Malaria/Malaria9B.pdf'
+[*]Loging error : 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+[-]Error at get_gemini_ressponse : Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+errorcodered
+[!]Getting the File name variables
+[+]Saving the DF to a CSV csv/Dengue/9B-- Sample ID: MB049322.csv
+[*]Loging error : 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/9B--SampleID:MB49322_hemo.csv' 
+[!]Starting the Extraction Process
+[$]Variable names | dir_path = images/Datasets/Malaria/Malaria | pdfpath = images/Datasets/Malaria/Malaria11A.pdf | pdfname = 11A.pdf
+[!]Calling the Gemeni function
+[*]Loging error : 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria11A.pdf' 
+[-]Error during image conversion detection: no such file: 'images/Datasets/Malaria/Malaria11A.pdf'
+[*]Loging error : 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+[-]Error at get_gemini_ressponse : Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+errorcodered
+[!]Getting the File name variables
+[+]Saving the DF to a CSV csv/Dengue/11A-- Sample ID: MB049322.csv
+[*]Loging error : 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/11A--SampleID:MB49322_hemo.csv' 
+[!]Starting the Extraction Process
+[$]Variable names | dir_path = images/Datasets/Malaria/Malaria | pdfpath = images/Datasets/Malaria/Malaria11C.pdf | pdfname = 11C.pdf
+[!]Calling the Gemeni function
+[*]Loging error : 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria11C.pdf' 
+[-]Error during image conversion detection: no such file: 'images/Datasets/Malaria/Malaria11C.pdf'
+[*]Loging error : 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+[-]Error at get_gemini_ressponse : Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+errorcodered
+[!]Getting the File name variables
+[+]Saving the DF to a CSV csv/Dengue/11C-- Sample ID: MB049322.csv
+[*]Loging error : 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/11C--SampleID:MB49322_hemo.csv' 
+[!]Starting the Extraction Process
+[$]Variable names | dir_path = images/Datasets/Malaria/Malaria | pdfpath = images/Datasets/Malaria/Malaria7B.pdf | pdfname = 7B.pdf
+[!]Calling the Gemeni function
+[*]Loging error : 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria7B.pdf' 
+[-]Error during image conversion detection: no such file: 'images/Datasets/Malaria/Malaria7B.pdf'
+[*]Loging error : 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+[-]Error at get_gemini_ressponse : Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+errorcodered
+[!]Getting the File name variables
+[+]Saving the DF to a CSV csv/Dengue/7B-- Sample ID: MB049322.csv
+[*]Loging error : 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/7B--SampleID:MB49322_hemo.csv' 
+[!]Starting the Extraction Process
+[$]Variable names | dir_path = images/Datasets/Malaria/Malaria | pdfpath = images/Datasets/Malaria/Malaria3B.pdf | pdfname = 3B.pdf
+[!]Calling the Gemeni function
+[*]Loging error : 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria3B.pdf' 
+[-]Error during image conversion detection: no such file: 'images/Datasets/Malaria/Malaria3B.pdf'
+[*]Loging error : 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+[-]Error at get_gemini_ressponse : Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+errorcodered
+[!]Getting the File name variables
+[+]Saving the DF to a CSV csv/Dengue/3B-- Sample ID: MB049322.csv
+[*]Loging error : 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/3B--SampleID:MB49322_hemo.csv' 
+[!]Starting the Extraction Process
+[$]Variable names | dir_path = images/Datasets/Malaria/Malaria | pdfpath = images/Datasets/Malaria/Malaria15B.pdf | pdfname = 15B.pdf
+[!]Calling the Gemeni function
+[*]Loging error : 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria15B.pdf' 
+[-]Error during image conversion detection: no such file: 'images/Datasets/Malaria/Malaria15B.pdf'
+[*]Loging error : 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+[-]Error at get_gemini_ressponse : Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+errorcodered
+[!]Getting the File name variables
+[+]Saving the DF to a CSV csv/Dengue/15B-- Sample ID: MB049322.csv
+[*]Loging error : 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/15B--SampleID:MB49322_hemo.csv' 
+[!]Starting the Extraction Process
+[$]Variable names | dir_path = images/Datasets/Malaria/Malaria | pdfpath = images/Datasets/Malaria/Malaria6A.pdf | pdfname = 6A.pdf
+[!]Calling the Gemeni function
+[*]Loging error : 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria6A.pdf' 
+[-]Error during image conversion detection: no such file: 'images/Datasets/Malaria/Malaria6A.pdf'
+[*]Loging error : 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+[-]Error at get_gemini_ressponse : Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+errorcodered
+[!]Getting the File name variables
+[+]Saving the DF to a CSV csv/Dengue/6A-- Sample ID: MB049322.csv
+[*]Loging error : 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/6A--SampleID:MB49322_hemo.csv' 
+[!]Starting the Extraction Process
+[$]Variable names | dir_path = images/Datasets/Malaria/Malaria | pdfpath = images/Datasets/Malaria/Malaria10A.pdf | pdfname = 10A.pdf
+[!]Calling the Gemeni function
+[*]Loging error : 
+[-]pdf2img | no such file: 'images/Datasets/Malaria/Malaria10A.pdf' 
+[-]Error during image conversion detection: no such file: 'images/Datasets/Malaria/Malaria10A.pdf'
+[*]Loging error : 
+[-]get_gemini_response | Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+[-]Error at get_gemini_ressponse : Could not create `Blob`, expected `Blob`, `dict` or an `Image` type(`PIL.Image.Image` or `IPython.display.Image`).
+Got a: <class 'NoneType'>
+Value: None 
+errorcodered
+[!]Getting the File name variables
+[+]Saving the DF to a CSV csv/Dengue/10A-- Sample ID: MB049322.csv
+[*]Loging error : 
+[-]main | [Errno 2] No such file or directory: 'csv/Malaria/primary/1A--SampleID:MB49322_hemo.csv' 
+[!]Starting the Extraction Process
